@@ -26,27 +26,27 @@ The goal is to learn defensive security by building, configuring, testing, and i
 
 Windows Host
 
-&#x20;    │
+          │
 
-&#x20;    │ VirtualBox
+          │ VirtualBox
 
-&#x20;    ▼
+          ▼
 
 Ubuntu Server
 
 mirage-lab
 
-&#x20;    │
+          │
 
-&#x20;    ├── NAT Network
+          ├── NAT Network
 
-&#x20;    │
+          │
 
-&#x20;    └── Host-Only Network
+          └── Host-Only Network
 
-&#x20;            │
+                  │
 
-&#x20;            └── Windows Host
+                  └── Windows Host
 
 
 
@@ -103,21 +103,21 @@ Example workflow:
 
 SSH Authentication Attempt
 
-&#x20;         ↓
+               ↓
 
-&#x20;       sshd
+              sshd
 
-&#x20;         ↓
+               ↓
 
-&#x20;     System Logs
+           System Logs
 
-&#x20;         ↓
+               ↓
 
-&#x20;    Log Analysis
+           Log Analysis
 
-&#x20;         ↓
+               ↓
 
-&#x20;  Suspicious Activity
+         Suspicious Activity
 
 
 🐍 SSH-Watch
